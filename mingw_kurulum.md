@@ -1,0 +1,13 @@
+# Kurulum
+- indirdiğin dosyayı çalıştır. Sonra sırasıyla:
+- `install` -> `Continue` -> Ekrana bir pencere daha açılacak -> Sol üstten `Basic Setup` seç -> ekrana çıkan 7 paketi de işaretle (`mark for installation`) -> Sol üstten `Installation` -> `Apply Changes` -> `Apply`
+- Sonrasında kuracaktır.
+- Kurulum bittikten sonra Windowsun arama çubuğunu aç.
+- `Sistem Ortam Değişkenlerini Düzenleyin` yaz.
+- Açılan pencerenin sağ altındaki `Ortam Değişkenleri`ne tıkla.
+- Tekrar açılan pencereden Sistem değişkenlerinde bulunan `PATH` değişkenine çift tıkla.
+- Açılan düzenleme penceresinin sağ üstündeki `Yeni` seçeneğine tıkla.
+- Yazman için ayrılan kısma mingw'yi indirdiğin dosya yolunu at. (Ama dikkat et bu attığın dosya yolu `C:\MinGW\bin` gibi bir yol olsun yani exe dosyalarına ulaşabilen yol)
+- Bu adımı da yaptıktan sonra başarıyla çalışıyor durumda olmalı.
+- Bunu kontrol etmek için komut satırını aç ve `gcc --version` yaz.
+- Eğer burada yazı çıkıyorsa düzgün kurmuşsun demektir.
